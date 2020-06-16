@@ -7,6 +7,7 @@ run_composer() {
 }
 
 
+
 MAGENTO_DIR="magento"
 MAGENTO_VER="$1"
 if [ -z "$MAGENTO_VER" ]; then
