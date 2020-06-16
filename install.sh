@@ -3,7 +3,7 @@
 echo  'test';
 
 run_composer() {
-  docker run --rm --interactive --tty --volume ./:/app $1
+  docker run --rm --interactive --tty --volume .:/app $1
 }
 
 
